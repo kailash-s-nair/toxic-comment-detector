@@ -96,8 +96,6 @@ We compare three main approaches:
 │  ├─ model1.py          # Neural model: Embedding + Average Pooling + MLP
 │  ├─ model2.py          # Neural model: Embedding + Bi-LSTM (best model)
 │  ├─ demo.py            # Interactive terminal demo using the best model
-│  ├─ utils.py           # (Optional) Shared utilities: preprocessing, metrics, etc.
-│  └─ config.py          # (Optional) Central config: paths, hyperparameters
 ├─ requirements.txt      # Python dependencies
 ├─ .gitignore
 └─ README.md             # This file
