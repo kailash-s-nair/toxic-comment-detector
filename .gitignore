@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+mlt/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (raw and intermediate) - keep small samples if needed
+data/raw/
+data/interim/
+data/processed/
+
+# Models (binaries)
+saved_models/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
