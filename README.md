@@ -22,17 +22,6 @@ We compare a classical machine-learning baseline to two neural networks, then us
 2. [Dataset](#dataset)  
 3. [Models](#models)  
 4. [Repository Structure](#repository-structure)  
-5. [Getting the Code](#getting-the-code)  
-6. [Setup & Installation](#setup--installation)  
-7. [How to Run](#how-to-run)  
-   - [Baseline: TF-IDF + Logistic Regression](#baseline-tf-idf--logistic-regression-model0py)  
-   - [Neural Model 1: Embedding + Avg Pooling + MLP](#neural-model-1-embedding--average-pooling--mlp-model1py)  
-   - [Neural Model 2: Embedding + Bi-LSTM](#neural-model-2-embedding--bi-lstm-model2py)  
-   - [Interactive Demo](#interactive-demo-demopy)  
-8. [Results (Template)](#results-template)  
-9. [Extending the Project](#extending-the-project)  
-10. [Troubleshooting](#troubleshooting)  
-11. [Acknowledgements](#acknowledgements)
 
 ---
 
