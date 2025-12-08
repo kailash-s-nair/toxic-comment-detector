@@ -275,22 +275,8 @@ Use this section to summarize your final results (replace placeholders with your
 | insult        | 0.xx        | 0.xx       | 0.xx       |
 | identity_hate | 0.xx        | 0.xx       | 0.xx       |
 
----
 
-## 9. Extending the Project
-
-Ideas to push this further:
-
-- Pretrained embeddings (GloVe, FastText)  
-- Transformer-based models (e.g., BERT, DistilBERT)  
-- Better text preprocessing (URLs, emojis, mentions, leetspeak)  
-- Class imbalance handling (class weights, focal loss, oversampling)  
-- Explainability (LIME/SHAP, attention visualizations)  
-- Real-time moderation demos (chat bot, comment filter, etc.)
-
----
-
-## 10. Troubleshooting
+## 9. Troubleshooting
 
 - **Dataset not found**:  
   - Check that `train.csv` is in `data/raw/`.  
@@ -314,16 +300,3 @@ Ideas to push this further:
   - Make sure `src/` is in the Python path (using `python -m src.webDemo.api` rather than running files directly sometimes helps).  
   - Confirm your virtual environment is activated.
 
----
-
-## 11. Acknowledgements
-
-- **Course**: CSCI 4050U – Machine Learning (Ontario Tech University)  
-- **Dataset**: Jigsaw Toxic Comment Classification Challenge (Kaggle)  
-- **Libraries / Tools**:  
-  - PyTorch, scikit-learn, pandas, NumPy  
-  - Flask, Flask-Cors  
-  - React, Vite  
-- **People**: Course instructor and TAs for project guidance and feedback.
-
-If you use or build on this project, please consider citing the original dataset and giving credit to the contributors of this repository.
