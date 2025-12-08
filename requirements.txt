@@ -1,5 +1,15 @@
-pandas
+# Core numerical + data
 numpy
+pandas
+
+# Machine learning
 scikit-learn
+
+# Deep learning (BiLSTM model)
 torch
-joblib
+torchvision
+torchaudio
+
+# Web API
+Flask
+Flask-Cors

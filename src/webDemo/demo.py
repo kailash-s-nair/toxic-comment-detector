@@ -144,6 +144,22 @@ print("Loaded model2_bilstm.pt")
 print("Vocab size:", vocab_size)
 print("Ready for interactive demo.\n")
 
+def load_model(model_name: str = "model2") -> nn.Module:
+    if model_name not in {"model2", "bilstm", "model2_bilstm"}:
+        print(
+            f"[demo.load_model] Warning: unsupported model_name={model_name!r}, "
+            "using BiLSTM anyway."
+        )
+    return model
+
+def predict_scores(model: nn.Module, text: str):
+    ids = encode_text(text, MAX_LEN)
+    input_ids = torch.tensor(ids, dtype = torch.long).unsqueeze(0).to(DEVICE)
+    with torch.no_grad():
+        logits = model(input_ids)
+        probs = torch.sigmoid(logits).cpu().numpy()[0]
+    return {label: float(p) for label, p in zip(LABEL_COLUMNS, probs)}
+
 def predict_comment(text, threshold=0.5):
     """
     Encode text, run model, return label probabilities and predictions.
