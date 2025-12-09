@@ -93,8 +93,13 @@ You must download the CSVs yourself from Kaggle and place them under `data/` as 
 │        ├─ package.json
 │        └─ src/App.jsx
 │
-├─ requirements.txt  # Python dependencies
-└─ README.md
+├─ .gitignore
+├─ Model0_Example.png
+├─ Model1_Example.png
+├─ Model2_Example.png
+├─ README.md
+├─ Jupyter Notebook
+└─ requirements.txt  # Python dependencies
 ```
 
 You may not have all files if you have not trained all models yet. The important pieces are:
